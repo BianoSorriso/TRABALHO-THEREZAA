@@ -1,4 +1,4 @@
-# TRABALHO-THEREZAA
+# TRABALHO-THEREZA
 
 Um site de e-commerce  que apresenta um design elegante e algumas funcionalidades básicas e tem uma interface responsiva.
 
