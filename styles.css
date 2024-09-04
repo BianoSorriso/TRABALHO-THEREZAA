@@ -64,6 +64,39 @@ main {
 }
 
 
+/* Colocando seta para passar o Banner*/
+
+.seta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setaAnterior {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 40px;
+  z-index: 2;
+  cursor: pointer;
+  width:35px;
+}
+.setaAnterior img {
+  transform: rotateY(180deg);
+}
+
+.setaPosterior {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 5px;
+  z-index: 10;
+  cursor: pointer;
+     width:35px;
+}
+
+
+
 .product-list {
     width: 90%;
     max-width: 1200px;
