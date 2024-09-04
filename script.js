@@ -21,7 +21,7 @@ function mudarImagem() {
   }
 
 function proximoSlide() {
-  if (indice < 5) {
+  if (indice < 4) {
     indice++;
   } else {
     indice = 1;
@@ -34,7 +34,7 @@ function proximoSlide() {
     if (indice > 1) {
       indice--;
     } else {
-      indice = 5;
+      indice = 4;
       }
      img_banner.setAttribute('src', `imagens/BANNER${indice}.png`);
     }

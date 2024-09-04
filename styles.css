@@ -1,8 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700&display=swap');
+
+
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Old Mincho', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -57,6 +59,13 @@ main {
     padding: 20px 0;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 100%; 
+  height: auto; 
+}
+
 .banner img {
     width: 100%;
     height: auto;
@@ -76,7 +85,7 @@ main {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  left: 40px;
+  left: 25px;
   z-index: 2;
   cursor: pointer;
   width:35px;
@@ -89,10 +98,10 @@ main {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
-  right: 5px;
+  right: -10px;
   z-index: 10;
   cursor: pointer;
-     width:35px;
+  width:35px;
 }
 
 
@@ -168,6 +177,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
+    font-family: 'Zen Old Mincho', serif;
 }
 
 button:hover {
