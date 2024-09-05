@@ -18,10 +18,21 @@
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Categorias</a></li>
                     <li><a href="#">Minha Conta</a></li>
-                    <li><a href="#">Carrinho</a></li>
-                </ul>
-            </nav>
-        </div>
+                   
+                   <!---- PARTE NOVA INCLUIDA PELO PEDRO --> 
+
+                   <li class="cart" id="cart">
+                    <a href="#" id="cart-link">Carrinho <span id="cart-item-count">(0)</span></a>
+                    
+                    <div class="cart-items" id="cart-dropdown">
+                        <ul id="cart-items-list"></ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
     </header>
 
     <main>
@@ -54,43 +65,47 @@
         <h2>Produtos em Destaque</h2>
         <div class="products">
             <div class="product">
-                <img src="imagens/PS5.jpg" alt="Produto 1">
-                <h3>Console PlayStation®5 + Marvel's Spider-Man 2                         </h3>
+                <img src="imagens/PS5.jpg" alt="Console PlayStation®5 + Marvel's Spider-Man 2">
+                <h3>Console PlayStation®5 + Marvel's Spider-Man 2</h3>
                 <p>R$3.899,99</p>
-                <button onclick="addToCart('Produto 1', 3.899,99)">Adicionar ao Carrinho</button>
+                <button onclick="addToCart('Console PlayStation®5', 3899.99, 'imagens/PS5.jpg')">Adicionar ao Carrinho</button>
             </div>
             <div class="product">
-                <img src="imagens/BIKE.webp" alt="Produto 2">
-                <h3>Bicicleta Aro 29 Gts Pro M5 Intense 24 Marchas. </h3>
+                <img src="imagens/BIKE.webp" alt="Bicicleta Aro 29 Gts Pro M5 Intense 24 Marchas">
+                <h3>Bicicleta Aro 29 Gts Pro M5 Intense 24 Marchas</h3>
                 <p>R$849,99</p>
-                <button onclick="addToCart('Produto 2', 849,99)">Adicionar ao Carrinho</button>
+                <button onclick="addToCart('Bicicleta Aro 29', 849.99, 'imagens/BIKE.webp')">Adicionar ao Carrinho</button>
             </div>
             <div class="product">
-                <img src="imagens/Air Fryer.jpg" alt="Produto 3">
-                <h3>Fritadeira Airfryer Série 3000 Grill Edition Standart. </h3>
+                <img src="imagens/Air Fryer.jpg" alt="Fritadeira Airfryer Série 3000 Grill Edition Standart">
+                <h3>Fritadeira Airfryer Série 3000 Grill Edition Standart</h3>
                 <p>R$339,90</p>
-                <button onclick="addToCart('Produto 3', 339,90)">Adicionar ao Carrinho</button>
+                <button onclick="addToCart('Fritadeira Airfryer', 339.90, 'imagens/Air Fryer.jpg')">Adicionar ao Carrinho</button>
             </div>
             <div class="product">
-                <img src="imagens/IPHONE14.jpg" alt="Produto 4">
-                <h3>Iphone 14 (128 GB) - Meia Noite  Cor Preto. </h3>
+                <img src="imagens/IPHONE14.jpg" alt="Iphone 14 (128 GB) - Meia Noite Cor Preto">
+                <h3>Iphone 14 (128 GB) - Meia Noite Cor Preto</h3>
                 <p>R$4.309,49</p>
-                <button onclick="addToCart('Produto 4',4.309,49)">Adicionar ao Carrinho</button>
+                <button onclick="addToCart('Iphone 14', 4309.49, 'imagens/IPHONE14.jpg')">Adicionar ao Carrinho</button>
             </div>
             <div class="product">
-                <img src="imagens/TAPETES.jpg" alt="Produto 5">
+                <img src="imagens/TAPETES.jpg" alt="Jogo de Tapetes Automotivos Emborrachados Universal para Carros">
                 <h3>Jogo de Tapetes Automotivos Emborrachados Universal para Carros</h3>
                 <p>R$59,50</p>
-                <button onclick="addToCart('Produto 5', 59,50)">Adicionar ao Carrinho</button>
+                <button onclick="addToCart('Jogo de Tapetes Automotivos', 59.50, 'imagens/TAPETES.jpg')">Adicionar ao Carrinho</button>
             </div>
             <div class="product">
-                <img src="imagens/bolainfantil.jpg" alt="Produto 6">
+                <img src="imagens/bolainfantil.jpg" alt="Bola Futsal Infantil Penalty Rx 100 XXIII Sub-9 e Sub 11">
                 <h3>Bola Futsal Infantil Penalty Rx 100 XXIII Sub-9 e Sub 11</h3>
                 <p>R$19,90</p>
-                <button onclick="addToCart('Produto 6', 19,90)">Adicionar ao Carrinho</button>
+                <button onclick="addToCart('Bola Futsal Infantil Penalty', 19.90, 'imagens/bolainfantil.jpg')">Adicionar ao Carrinho</button>
             </div>
         </div>
     </section>
+    
+
+
+            
 
     <footer>
         <div class="container">
